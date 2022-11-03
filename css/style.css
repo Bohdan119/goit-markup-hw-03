@@ -32,15 +32,39 @@ font-size:16px;
 letter-spacing: 0.03em;
 color:var(--color-main);
 }
+/* ----------------NORMAL-------------- */
+h1,
+h2,
+h3,
+p
+{margin:0;}
 
+ul{
+list-style: none;
+margin: 0;
+padding: 0;
+}
 
 /*----------HEADER---------*/ 
 
 .header{
+padding-top: 24px;
+padding-bottom: 25;
+
+margin: 0 auto;
+
+
 width: 1600px;
 left: 0px;
 top: 0px;
 color: var(--color-white); 
+}
+.conteiner{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 3px solid red;
 }
 
 .header-logo{}
@@ -99,10 +123,21 @@ color: var(--color-change);
 
 /*----------HEROY---------*/ 
 .main-heroy{
+margin: 0 auto;
+
 background-color: var(--color-bckg);
 }
 
 .heroy-title{
+
+padding-top: 200px;
+padding-bottom: 280px;
+padding-left: 252px;
+padding-right: 252px;
+
+
+
+
 font-weight: 900;
 font-size: 44px;
 line-height: 1.33;
@@ -111,6 +146,13 @@ text-transform: uppercase;
 }
 
 .main-button{
+    width: 216px;
+    height: 50px;
+
+    display: block;
+    margin: 0 auto;
+ 
+
 font-weight:var(--font-weig-b);
 font-size: 16px;
 line-height: 1.875;
