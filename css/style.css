@@ -48,13 +48,14 @@ padding: 0;
 /*----------HEADER---------*/ 
 
 .header{
-padding-top: 24px;
+height: 80px;
 padding-bottom: 25;
+display: flex;
 
-margin: 0 auto;
+justify-self: center;
 
 
-width: 1600px;
+width: 1200px;
 left: 0px;
 top: 0px;
 color: var(--color-white); 
@@ -67,7 +68,14 @@ color: var(--color-white);
     outline: 3px solid red;
 }
 
-.header-logo{}
+.header-logo{
+    width: 152px;
+    height: 31px;
+
+    margin-right: 86px;
+    padding-bottom: 25px;
+    padding-top: 24px;
+}
 
 .header-studio{
 font-family:var(--font-ral);
@@ -95,7 +103,11 @@ letter-spacing: 0.02em;
 }
 
 .header-list
-{list-style: none;}
+{list-style: none;
+display: flex;
+gap: 50px;
+padding-top: 32px;
+}
 
 .link{
 text-decoration:none;
@@ -106,7 +118,9 @@ color: var(--color-link);
 .link:focus{
 color:var(--color-change);
 }
-
+.header-contacts{
+    margin-left: 344px;
+}
 .contact-tel{
 text-decoration: none;
 font-weight:var(--font-weig);
@@ -123,20 +137,17 @@ color: var(--color-change);
 
 /*----------HEROY---------*/ 
 .main-heroy{
+padding-top: 200px;
+padding-bottom: 200px;
 margin: 0 auto;
+width: 1200px;
 
 background-color: var(--color-bckg);
 }
 
 .heroy-title{
-
-padding-top: 200px;
-padding-bottom: 280px;
 padding-left: 252px;
 padding-right: 252px;
-
-
-
 
 font-weight: 900;
 font-size: 44px;
@@ -144,14 +155,16 @@ line-height: 1.33;
 color:var(--color-white);
 text-transform: uppercase;
 }
+.position-button{
+    padding-top: 30px;
 
+}
 .main-button{
-    width: 216px;
-    height: 50px;
+    min-width: 216px;
+    min-height: 50px;
 
     display: block;
     margin: 0 auto;
- 
 
 font-weight:var(--font-weig-b);
 font-size: 16px;
@@ -168,13 +181,20 @@ background-color:var(--color-change-butt);
 
 /*----------SKILLS---------*/ 
 
-.skill{}
+.skill{
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 .skill h2
 {display: none;}
 
 .skill-list
-{list-style: none;}
+{list-style: none;
+display: flex;
+gap: 30px;
+
+}
 
 .skill-title{
 font-weight:var(--font-weig-b);
@@ -193,7 +213,16 @@ color:var(--color-main);
 
 /*----------WORK---------*/ 
 
-.work{}
+.work{
+padding-bottom: 94px;
+}
+
+.work-title{
+width: 366px;
+height: 42px;
+margin: 0 auto;
+margin-bottom: 50px;
+}
 
 .title{
 font-weight:var(--font-weig-b);
@@ -201,19 +230,32 @@ font-size: 36px;
 line-height: 1.166;
 text-align: center;
 color:var(--color-link);
+margin-bottom: 50px;
 }
 
 .work-image
-{list-style: none;}
+{list-style: none;
+display: flex;
+gap: 30px;
+
+}
 
 /*----------TEAM---------*/ 
 
 .team{
 background-color: #F5F4FA;
+width: 1200px;
+margin: 0 auto;
+padding-top: 94px;
+padding-bottom: 94px;
 }
 .team-cards{}
 .team-list
-{list-style: none;}
+{list-style: none;
+display: flex;
+gap: 30px;
+justify-content: space-between;
+}
 
 .team-title{
 font-weight:var(--font-weig);
