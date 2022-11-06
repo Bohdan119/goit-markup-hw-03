@@ -45,6 +45,15 @@ margin: 0;
 padding: 0;
 }
 
+section{
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
+img{
+    display: block;
+}
+
 /*----------HEADER---------*/ 
 
 .header{
@@ -154,9 +163,10 @@ font-size: 44px;
 line-height: 1.33;
 color:var(--color-white);
 text-transform: uppercase;
+text-align-last: center;
 }
 .position-button{
-    padding-top: 30px;
+    margin-top: 30px;
 
 }
 .main-button{
@@ -181,10 +191,7 @@ background-color:var(--color-change-butt);
 
 /*----------SKILLS---------*/ 
 
-.skill{
-padding-top: 94px;
-padding-bottom: 94px;
-}
+.skill{}
 
 .skill h2
 {display: none;}
@@ -193,6 +200,10 @@ padding-bottom: 94px;
 {list-style: none;
 display: flex;
 gap: 30px;
+padding-top: 0;
+padding-bottom: 0;
+width: 1170px;
+height: 98px;
 
 }
 
@@ -201,21 +212,25 @@ font-weight:var(--font-weig-b);
 font-size: 14px;
 line-height:var(--line-nav);
 color:var(--color-link);
+margin-bottom: 10px;
+width: 270px;
+height: 16px;
 }
 
-.skill-list p{
+.skill-text{
 font-size: 14px;
 line-height: 1.714;
 color:var(--color-main);
+
+width: 270px;
+height: 72px;
 }
 
 
 
 /*----------WORK---------*/ 
 
-.work{
-padding-bottom: 94px;
-}
+.work{}
 
 .work-title{
 width: 366px;
@@ -237,6 +252,7 @@ margin-bottom: 50px;
 {list-style: none;
 display: flex;
 gap: 30px;
+justify-content:space-between;
 
 }
 
@@ -246,15 +262,29 @@ gap: 30px;
 background-color: #F5F4FA;
 width: 1200px;
 margin: 0 auto;
-padding-top: 94px;
 padding-bottom: 94px;
 }
-.team-cards{}
+.team-cards{
+}
+
 .team-list
 {list-style: none;
 display: flex;
 gap: 30px;
-justify-content: space-between;
+}
+.team-image{}
+
+.team-description{
+margin: 0 auto;
+padding-top: 30px;
+padding-bottom: 30px;
+
+border-right: 108px;
+border-bottom: 270px;
+border-left: 108px;
+background-color:var(--color-white);
+text-align-last: center;
+
 }
 
 .team-title{
@@ -262,6 +292,7 @@ font-weight:var(--font-weig);
 font-size: 16px;
 line-height: 1.187;
 color:var(--color-link);
+margin-bottom: 10px;
 }
 .team-text{
 font-size: 16px;
@@ -270,9 +301,16 @@ line-height:1.1718;
 
 
 /*----------FOOTER---------*/ 
+footer{
+    background-color: var(--color-bckg);
+    width: 1200px;
+    height: 252px;
+margin: 0 auto;
+}
+.footer-text{
+    padding-top: 60px;
+    padding-bottom: 60px;
 
-.footer{
-background-color:var(--color-bckg);
 }
 
 .footer-studio{
@@ -319,9 +357,15 @@ color:var(--color-change);
 
 .portfolio-main-title
 {display: none;}
-
+.button-list{
+width: 574px;
+height: 54px;
+padding-left: 513px;
+}
 .button-filter
 {list-style: none;
+display:flex;
+justify-content: center;
 }
 .portfolio-button{
 background-color: var(--color-filter);
@@ -329,11 +373,16 @@ font-family:var(--font-rob);
 font-weight: var(--font-weig);
 font-size: 16px;
 line-height:1.625;
-text-align: center;
+text-align-last: center;
 letter-spacing: 0.03em;
 color:var(--color-link);
-cursor: pointer;
+background: #F5F4FA;
+cursor: pointer; 
 
+padding-top: 6px;
+padding-right: 22px;
+padding-bottom: 6px;
+padding-left: 22px;
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
@@ -345,7 +394,26 @@ color: var(--color-white);
 }
 
 .portfolio-image
-{list-style: none;}
+{list-style: none;
+display: flex;
+flex-wrap: wrap;
+column-gap: 30px;
+row-gap: 44px;
+text-align-last: center;
+}
+.portfolio-discription{
+margin: 0 auto;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 24px;
+
+border-right: 110px;
+border-bottom: 370px;
+border-left: 108px;
+background-color: #FFFFFF;
+border: 1px solid #EEEEEE;
+text-align-last:left;
+}
 
 .portfolio-title{
 font-weight:var(--font-weig-b);

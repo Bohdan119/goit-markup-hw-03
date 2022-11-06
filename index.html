@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="body">
       <div class="conteiner">
       <!--header-->
       <header class="header">
@@ -50,8 +49,8 @@
             </li>
           </ul>
         </div>
-      </div>
       </header>
+      </div>
 
       <!------main file------>
       <main class="single-file">
@@ -74,27 +73,27 @@
               <ul class="skill-list">
                 <li>
                   <h3 class="skill-title">УВАГА ДО ДЕТАЛЕЙ</h3>
-                  <p>
+                  <p class="skill-text">
                     Ідейні міркування, і навіть початок повсякденної роботи з
                     формування позиції.
                   </p>
                 </li>
                 <li>
                   <h3 class="skill-title">ПУНКТУАЛЬНІСТЬ</h3>
-                  <p>
+                  <p class="skill-text">
                     Завдання організації, особливо рамки і місце навчання кадрів
                     тягне у себе.
                   </p>
                 </li>
                 <li>
                   <h3 class="skill-title">ПЛАНУВАННЯ</h3>
-                  <p>
+                  <p class="skill-text">
                     Так само консультація з широким активом значною мірою зумовлює.
                   </p>
                 </li>
                 <li>
                   <h3 class="skill-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                  <p>
+                  <p class="skill-text">
                     Значимість цих проблем настільки очевидна, що реалізація
                     планових завдань.
                   </p>
@@ -108,7 +107,8 @@
         <section class="work">
 
           <div class="conteiner">
-            <div class="work-title"><h2 class="title">Чим ми займаємося</h2></div>
+            <div class="work-title">
+              <h2 class="title">Чим ми займаємося</h2></div>
             <ul class="work-image">
               <li>
                 <img
@@ -144,41 +144,49 @@
             </div>
             <div class="team-cards">
               <ul class="team-list">
-                  <li>
+                  <li class="team-image">
                       <img
                         src="./images/img1.jpg"
                         alt="Product Designer"
                         width="270"
                         height="260"/>
-                        <h3 class="team-title">Ігор Дем'яненко</h3>
-                        <p class="team-text" lang="EN">Product Designer</p>
+                        <div class="team-description">
+                          <h3 class="team-title">Ігор Дем'яненко</h3>
+                          <p class="team-text" lang="EN">Product Designer</p>
+                        </div>
                   </li>
-                  <li>
+                  <li class="team-image">
                       <img
                         src="./images/img2.jpg"
                         alt="Frontend Developer"
                         width="270"
                         height="260"/>
-                        <h3 class="team-title">Ольга Рєпіна</h3>
-                        <p class="team-text" lang="EN">Frontend Developer</p>
+                        <div class="team-description">
+                          <h3 class="team-title">Ольга Рєпіна</h3>
+                          <p class="team-text" lang="EN">Frontend Developer</p>
+                        </div>
                   </li>
-                  <li>
+                  <li class="team-image">
                       <img
                         src="./images/img3.jpg"
                         alt="Marketing"
                         width="270"
                         height="260"/>
-                        <h3 class="team-title">Микола Тарасов</h3>
-                        <p class="team-text" lang="EN">Marketing</p>
+                        <div class="team-description">
+                          <h3 class="team-title">Микола Тарасов</h3>
+                          <p class="team-text" lang="EN">Marketing</p>
+                        </div class="team-description">
                   </li>
-                  <li>
+                  <li class="team-image">
                       <img
                         src="./images/img4.jpg"
                         alt="Designer"
                         width="270"
                         height="260"/>
-                        <h3 class="team-title">Михайло Єрмаков</h3>
-                        <p class="team-text" lang="EN">UI Designer</p>
+                        <div class="team-description">
+                          <h3 class="team-title">Михайло Єрмаков</h3>
+                          <p class="team-text" lang="EN">UI Designer</p>
+                        </div class="team-description">
                   </li>
               </ul>
             </div>
@@ -190,7 +198,7 @@
       <footer>
 
         <div class="conteiner">
-          <div class="footer">
+          <div class="footer-text">
             <div class="footer-logo">
               <a href="index.html" class="footer-studio"
                 ><span class="footer-web">Web</span>Studio</a
@@ -223,7 +231,6 @@
           </div>
         </div>
       </footer>
-    </section>
   </body>
 </html>
 <!---------------HOME_WORK_ENDED------------------>
