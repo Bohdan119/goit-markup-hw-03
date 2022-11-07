@@ -47,7 +47,6 @@ padding: 0;
 
 section{
     padding-top: 94px;
-    padding55-bottom: 94px;
 }
 
 img{
@@ -200,11 +199,8 @@ background-color:var(--color-change-butt);
 {list-style: none;
 display: flex;
 gap: 30px;
-padding-top: 0;
-padding-bottom: 0;
 width: 1170px;
-height: 98px;
-
+height: 98px;12
 }
 
 .skill-title{
@@ -405,6 +401,7 @@ gap: 30px;
 text-align: center;
 margin-left: 0;
 margin-right: 0;
+padding-bottom: 94px;
 }
 .portfolio-discription{
 padding-top: 20px;
