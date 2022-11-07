@@ -82,6 +82,7 @@ justify-self: center;
 color: var(--color-white);
 padding-bottom: 25px;
 padding-top: 24px;
+border-bottom: 1px solid #ECECEC;
 }
 .header-conteiner{
 display: flex;
@@ -265,6 +266,7 @@ background-color:var(--color-white);
 .team-description{
 padding-top: 30px;
 padding-bottom: 30px;
+text-align: center;
 }
 
 .team-title{
@@ -340,14 +342,12 @@ color:var(--color-change);
 
 /*----------PORTFOLIO---------*/ 
 
-.portfolio-main-title
-{display: none;}
-
 .button-filter
 {list-style: none;
 display:flex;
 justify-content:center;
-margin-bottom: 56px;
+margin-bottom: 50px;
+gap: 8px;
 }
 .portfolio-button{
 background-color: var(--color-filter);
@@ -366,6 +366,7 @@ padding-bottom: 6px;
 padding-left: 22px;
 border-color: var(--color-filter);
 border-radius:4px;
+border:0;
 }
 .portfolio-button:hover,
 .portfolio-button:focus{
@@ -380,21 +381,27 @@ color: var(--color-white);
 {list-style: none;
 display: flex;
 flex-wrap: wrap;
-gap: 30px;
-width: calc(100% - 60px) /3;
 text-align: center;
-margin-left: 0;
-margin-right: 0;
-padding-bottom: 94px;
+} 
+.flex-imeges{
+margin-right: 30px;
+margin-bottom: 30px;
 }
+.flex-imeges:nth-child(3n){
+margin-right: 0;
+}
+.flex-imeges:nth-child(n+7){
+margin-bottom: 0;
+}
+
+
 .portfolio-discription{
 padding-top: 20px;
 padding-bottom: 20px;
 padding-left: 24px;
+padding-right: 24px;
 
-border-right: 110px;
-border-bottom: 370px;
-border-left: 108px;
+border-top: 0;
 background-color: #FFFFFF;
 border: 1px solid #EEEEEE;
 text-align-last:left;
