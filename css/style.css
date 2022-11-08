@@ -201,9 +201,11 @@ background-color:var(--color-change-butt);
 {list-style: none;
 display: flex;
 gap: 30px;
-width: calc((100%-90px)/4);
-}
 
+}
+.skill-li{
+width: calc((100% - 90px) / 4);
+}
 .skill-title{
 font-weight:var(--font-weig-b);
 font-size: 14px;
@@ -254,11 +256,10 @@ background-color: var(--color-filter);
 {list-style: none;
 display: flex;
 gap: 30px;
-width: calc(100% - 90px) /4;
 }
 .team-image{
 background-color:var(--color-white);
-width: calc((100%-90px)/4);
+width: calc((100% - 90px)/4);
 }
 
 .team-description{
